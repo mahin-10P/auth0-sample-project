@@ -2,6 +2,8 @@
   "name": "auth0-express-webapp-sample",
   "scripts": {},
   "dependencies": {
+    "auth0": "^3.7.1",
+    "axios": "^1.5.0",
     "debug": "~3.2.7",
     "dotenv": "^6.1.0",
     "ejs": "^3.1.8",
@@ -9,5 +11,8 @@
     "express-openid-connect": "^2.16.0",
     "http-errors": "~1.8.1",
     "morgan": "~1.10.0"
+  },
+  "resolutions": {
+    "agent-base": "^6.0.1"
   }
 }
